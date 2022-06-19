@@ -1,0 +1,159 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,500&family=Roboto:wght@100&family=Ubuntu:wght@300&display=swap');
+.box{
+    align-items: center;
+    align-content: center;
+    width: 80%;
+    margin: 10px auto;
+}
+.bg img{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 30px;
+}
+.desc {
+    width: 100%;
+    margin-bottom: 100px;
+}
+.desc p{
+    text-align: justify;
+}
+.visi {
+    width: 80%;
+    margin: 0 auto;
+    margin-top:30px;
+}
+.visi h2, .desc h2{
+    text-align: center;
+    margin-top:5px;
+}
+.visi p{
+    text-align: center;
+}
+strong{
+    color:rgb(255,102,0);
+}
+
+.contact{
+    display:flex;
+    padding:5px;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+.contact-right {
+    width:60%;
+    padding:5px;
+   
+}
+.contact-right h2{
+    color:rgb(0, 0, 0);
+    margin-bottom:10px;
+    font-size:20px;
+    text-align: center;
+    width: 80%;
+    background:#ececec;
+    padding:10px;
+
+;}
+.contact-right form{
+    display:flex;
+    flex-direction: column;
+}
+.contact-left{
+    width:40%;
+    background:#f6f9fc;
+    padding:10px;
+    height:40%;
+}
+.contact-left h2{
+    font-size:18px;
+    color:rgb(45, 45, 45);
+    margin-bottom:10px;
+}
+.contact-right form input{
+    outline:1px solid grey;
+    padding:10px;
+    margin-bottom:8px;
+    border-radius:5px;
+    width:80%;
+}
+textarea{
+    outline:1px solid grey;
+    width:80%;
+    margin-bottom: 10px;
+    padding:10px;
+}
+.contact-right .btn{
+    width:200px;
+    background:rgb(45, 45, 45);
+}
+.info-contact {
+    width: 100%;
+    padding:8px;
+    justify-content:space-between;
+}
+.info-contact i{
+    margin-right: 10px;
+    font-size: 20px;
+    color:rgb(255,102,0);
+}
+.media i {
+    font-size: 26px;
+    color:rgb(255,102,0);
+    padding:5px;
+}
+.media i:hover {
+    color:red;
+}
+.follow {
+    margin-top:40px;
+}
+.follow h4{
+    margin-bottom:10px;
+    color:rgb(45, 45, 45);
+    font-size:18px;
+    font-weight:300;
+}
+
+
+
+
+@media (max-width:768px) {
+    .box{
+        width: 100%;
+        margin: 10px auto;
+    }
+    .desc p{
+        font-size:12px;
+    }
+    .visi{
+        width: 100%;
+    }
+    .desc h2, .visi h2{
+        font-size:14px;
+    }
+    .contact {
+        display:block;
+    }
+    .contact-left, .contact-right{
+        width: 100%;
+
+    }
+    .contact-left, .contact-right {
+        margin-bottom: 20px;
+    }
+    .contact-right form input{
+        width:100%;
+    }
+    textarea{
+        width:100%;
+
+    }
+    .contact-right h2 {
+        width: 100%;
+        font-size:20px;
+        font-weight: 300;
+    }
+    
+}
+

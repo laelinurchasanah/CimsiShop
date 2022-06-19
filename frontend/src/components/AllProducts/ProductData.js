@@ -1,0 +1,70 @@
+const ProductData = {
+    shopItems: [
+      {
+        id: 7,
+        cover: "./images/shops/shops-1.png",
+        name: "Lorem",
+        price: "180",
+        discount: "25",
+        category: "DofFood",
+      },
+      {
+        id: 8,
+        cover: "./images/shops/shops-2.png",
+        name: "Lorem",
+        price: "120",
+        discount: "10",
+        category: "DofFood",
+      },
+      {
+        id: 9,
+        cover: "./images/shops/shops-3.png",
+        name: "Lorem",
+        price: "20",
+        discount: "50 ",
+        category: "DofFood",
+      },
+      {
+        id: 10,
+        cover: "./images/shops/shops-4.png",
+        name: "Lorem",
+        price: "999",
+        discount: "10 ",
+        category: "DofFood",
+      },
+      {
+        id: 12,
+        cover: "./images/shops/shops-7.png",
+        name: "Lorem",
+        price: "400",
+        discount: "20 ",
+        category: "CatFood",
+      },
+      {
+        id: 13,
+        cover: "./images/shops/shops-8.png",
+        name: "Lorems",
+        price: "60",
+        discount: "5 ",
+        category: "CatFood",
+      },
+      {
+        id: 14,
+        cover: "./images/shops/shops-9.png",
+        name: "Lorem",
+        price: "120",
+        discount: "10",
+        category: "CatFood",
+      },
+      {
+        id: 15,
+        cover: "./images/shops/shops-10.png",
+        name: "Lorem",
+        price: "5",
+        discount: "2",
+        category: "Accessories",
+      },
+    ],
+  }
+  export default ProductData
+  
